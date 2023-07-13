@@ -17,6 +17,7 @@ h2 {
     font-size: 2rem;
     margin: 0;
     font-style: italic;
+    
 }   
 
 
@@ -24,6 +25,7 @@ header {
     background-color: rgb(70, 138, 64);
     display: flex;
     padding-left: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 .top1 {
@@ -37,7 +39,6 @@ header {
     display: flex;
     gap: 7rem;
     justify-content: flex-end;
-    
     list-style-type: none;
     padding: 2rem;
     margin-right: 3em;
@@ -54,6 +55,35 @@ a {
 a:hover {
     color: black;
     font-size: 3rem;
+}   
+
+.parks {
+    margin-bottom: 3rem;
+    background-color: rgb(96, 188, 88);
 }
 
- 
+.places {
+    margin-bottom: 3rem;
+    background-color: rgb(96, 188, 88);
+}
+
+.eats {
+    margin-bottom: 3rem;
+    background-color: rgb(96, 188, 88);
+}
+
+ .footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 138, 64);
+    padding: 2rem;
+    gap: 5rem;
+    list-style-type: none;
+ }
+
+ .foot {
+    color: black;
+    text-align: center;
+    color: azure;
+ }
+

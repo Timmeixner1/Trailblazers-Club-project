@@ -1,1 +1,59 @@
+* {
+    font-family: 'Charm', cursive; 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 16px;
+}
 
+h1 {
+    font-family: Charm;
+    font-size: 4rem;
+    margin: 0;
+    line-height: 3rem;
+    padding-top: 2rem;
+}
+
+h2 {
+    font-family: Oswald;
+    font-size: 2rem;
+    margin: 0;
+    font-style: italic;
+}   
+
+
+header {
+    background-color: rgb(70, 138, 64);
+    display: flex;
+    padding-left: 2.5rem;
+}
+
+.top1 {
+    flex-grow: 1;
+    align-items: center;
+    font-size: 3rem;
+    
+}
+
+.top {
+    display: flex;
+    gap: 7rem;
+    justify-content: flex-end;
+    
+    list-style-type: none;
+    padding: 2rem;
+    margin-right: 3em;
+    
+}
+
+a {
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-family: Oswald;
+    color: azure;
+}
+
+a:hover {
+    color: black;
+    font-size: 3rem;
+}
+
+ 

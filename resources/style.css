@@ -62,12 +62,19 @@ a:hover {
     flex-direction: column;
     margin-bottom: 3rem;
     background-color: rgb(96, 188, 88);
-    
-   }
+}
 
 .camps {
     max-width: 100%;
-}   
+}  
+
+.camps1 {
+    max-width: 100%;
+}
+
+.camps2 {
+    max-width: 100%;
+}
 
 .places {
     margin-bottom: 3rem;

@@ -167,7 +167,7 @@ figcaption {
 @media screen and (max-width: 470px) {
     header {
         display: inline-block;
-        background-size: auto;
+        min-width: 85%;
         padding-right: 2rem;
     }  
     h1 {
@@ -194,5 +194,10 @@ figcaption {
     }
     .grate {
         min-width: 75%;
+    }
+    .footer {
+        display: inline-block;
+        min-width: 85%;
+        text-align: center;
     }
 }

@@ -17,8 +17,12 @@ h2 {
     font-size: 2rem;
     margin: 0;
     font-style: italic;
-    
-}   
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 
 header {
@@ -62,6 +66,8 @@ figcaption {
     padding-left: 2rem;
     font-size: 2rem;
     padding-bottom: .8rem;
+    /* border-bottom: 5px solid green; */
+    background-color: green;
 }
 
 .parks {
@@ -105,6 +111,7 @@ figcaption {
 .eats {
     margin-bottom: 3rem;
     background-color: rgb(96, 188, 88);
+    padding-bottom: 2rem;
 }
 
 .eats {
@@ -157,3 +164,35 @@ figcaption {
     color: azure;
  }
 
+@media screen and (max-width: 470px) {
+    header {
+        display: inline-block;
+        background-size: auto;
+        padding-right: 2rem;
+    }  
+    h1 {
+        font-size: 3rem;
+    } 
+    .top {
+        display: inline-block;
+    }
+
+    .thumbs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cc {
+        justify-content: center;
+        min-width: 75%;
+    }
+    .steaks {
+        min-width: 75%;
+    }        
+    .wc {
+        min-width: 75%;
+    }
+    .grate {
+        min-width: 75%;
+    }
+}

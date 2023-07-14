@@ -79,11 +79,60 @@ a:hover {
 .places {
     margin-bottom: 3rem;
     background-color: rgb(96, 188, 88);
+    max-width: 100%;
+}
+
+.friday1  {
+    max-width: 100%;
+}
+
+.friday2 {
+    max-width: 100%;
+}
+
+.beach {
+    max-width: 100%;
+}
+
+
+.eats {
+    margin-bottom: 3rem;
+    background-color: rgb(96, 188, 88);
 }
 
 .eats {
     margin-bottom: 3rem;
     background-color: rgb(96, 188, 88);
+    max-width: 100%;
+}
+
+.shake {
+    max-width: 100%;
+}
+
+.thumbs {
+    margin-bottom: 3rem;
+    background-color: rgb(96, 188, 88);
+    max-width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.cc {
+    max-width: 22%;
+}
+
+.steaks {
+    max-width: 22%;
+}
+
+.wc {
+    max-width: 22%;
+}
+
+.grate {
+    max-width: 22%;
 }
 
  .footer {

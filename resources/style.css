@@ -57,6 +57,13 @@ a:hover {
     font-size: 3rem;
 }   
 
+figcaption {
+    color: azure;
+    padding-left: 2rem;
+    font-size: 2rem;
+    padding-bottom: .8rem;
+}
+
 .parks {
     display: flex;
     flex-direction: column;
